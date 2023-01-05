@@ -1,9 +1,21 @@
 /* fonts.css */
 
 p {
-  font-family: 'Courier New', Courier, monospace;
+  /* font-family: 'Courier New', Courier, monospace;
   font-size: 24px;
   font-weight: bold;
   font-style: oblique;
-  line-height: 2;
+  line-height: 2; */
+  font: oblique bold 24px/2 'Courier New', Courier, monospace;
+  word-spacing: 12px;
+}
+
+h1 {
+  text-align: end;
+  text-transform: capitalize;
+  letter-spacing: 4px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
