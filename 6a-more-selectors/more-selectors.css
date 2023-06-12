@@ -1,0 +1,9 @@
+/* more-selectors.css */
+
+.section > p {
+  color: red;
+}
+
+h1 + p {
+  font-weight: bold;
+}
