@@ -34,31 +34,43 @@ h1 {
 
 /* IMPORTANT */
 
-p {
+/* p {
   color: red !important;
 }
 
 p {
   color: pink !important;
+} */
+
+/* CSS VARIABLES */
+
+:root {
+  --main-color: red;
 }
 
+h1 {
+  background-color: var(--main-color);
+}
 
+p {
+  color: var(--main-color);
+}
 
+/* MEDIA QUERIES */
 
+h1 {
+  font-size: 24px;
+}
 
+@media screen and (min-width: 576px) {
+  h1 {
+    font-size: 36px;
+  }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 48px;
+  }
+}
 
