@@ -1,0 +1,27 @@
+/* units.css */
+
+/* REM */
+/* p {
+  font-size: 3rem;
+}
+
+html {
+  font-size: 10px;
+}
+
+div {
+  font-size: 20px;
+} */
+
+/* EM */
+p {
+  font-size: 3em;
+}
+
+html {
+  font-size: 10px;
+}
+
+div {
+  font-size: 2em;
+}
