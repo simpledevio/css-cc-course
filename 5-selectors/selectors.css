@@ -1,13 +1,36 @@
 /* selectors.css */
 
-/* .cool-text {
+/* CLASSES */
+.cool-text {
   color: red;
-} */
+}
 
+.bold {
+  font-weight: bold;
+}
+
+/* TYPE + CLASS */
+button.button {
+  border: solid 3px green;
+  padding: 8px;
+}
+
+a.button {
+  border: solid 3px pink;
+  padding: 8px;
+}
+
+/* MULTIPLE CLASS SELECTORS */
+.button.important {
+  text-transform: uppercase;
+}
+
+/* ID */
 #nice-text {
   color: purple;
 }
 
+/* SELECTOR LIST */
 h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
@@ -16,14 +39,17 @@ h1, h2, h3, h4, h5, h6 {
   font-style: italic;
 }
 
+/* ATTRIBUTE SELECTOR */
 input[type="number"] {
   color: red;
 }
 
+/* PSEUDO-CLASSES */
 a:hover {
   color: red;
 }
 
+/* PSEUDO-ELEMENTS */
 #money::before {
   content: "$";
 }
@@ -31,5 +57,3 @@ a:hover {
 #money::after {
   content: "$";
 }
-
-
