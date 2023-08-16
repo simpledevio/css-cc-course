@@ -4,6 +4,12 @@ p {
   border: solid 1px red;
   border-radius: 5px;
   /* padding: 30px 50px 70px 90px; */
-  margin: 30px 50px 70px 90px;
-  min-width: 400px;
+  /* margin: auto; */
+  max-width: 400px;
+  /* box-sizing: border-box; */
+  margin-bottom: 100px;
+}
+
+h2 {
+  margin-top: -50px;
 }
