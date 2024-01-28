@@ -1,0 +1,95 @@
+/* components.css */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  /* padding: 8px; */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* h1 {
+  text-align: center;
+  color: green;
+  text-decoration: underline;
+} */
+
+/* CONTAINER */
+.container {
+  max-width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 8px;
+}
+
+/* BUTTONS */
+.button {
+  text-decoration: none;
+  border: solid 1px green;
+  background-color: green;
+  color: white;
+  padding: 12px;
+  display: inline-block;
+}
+
+.button:hover {
+  border-color: darkgreen;
+  background-color: darkgreen;
+}
+
+.button-outline {
+  text-decoration: none;
+  border: solid 1px green;
+  /* background-color: white; */
+  color: green;
+  padding: 12px;
+  display: inline-block;
+}
+
+.button-outline:hover {
+  border-color: darkgreen;
+  color: darkgreen;
+}
+
+.text-center {
+  text-align: center;
+  /* display: flex;
+  gap: 8px;
+  justify-content: center; */
+}
+
+/* NAVBAR */
+.navbar {
+  list-style-type: none;
+  background-color: green;
+  color: white;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 16px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+
+.list {}
+
+/* TABLES */
+/* table {
+  border-collapse: collapse;
+}
+
+td, th {
+  border: solid 2px lightgray;
+  padding: 16px;
+} */
